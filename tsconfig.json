@@ -18,6 +18,13 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@app/*": ["./src/app/*"],
+      "@infra/*": ["src/app/infra/*"],
+      "@lib/*": ["./src/lib/*"],
+      "@test/*": ["./test/*"],
+      
+    }
   }
 }
